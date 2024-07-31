@@ -1,6 +1,6 @@
 {
   "name": "erlcapi-wrapper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An ERLC API wrapper made by celestialpluse.",
   "main": "src/index.js",
   "scripts": {
