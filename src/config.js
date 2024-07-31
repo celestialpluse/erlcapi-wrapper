@@ -29,5 +29,6 @@ module.exports = {
         configuration = { ...configuration, ...value };
         isConfigured = true;
     },
-    getConfig: () => configuration
+    getConfig: () => configuration,
+    getServerInfo: require('./getServerInfo')
 };
