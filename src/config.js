@@ -20,7 +20,7 @@ let configuration = {
 module.exports = {
     setConfig: (options) => {
         if (isConfigured) {
-            throw new Error('ERLC API Wrapper is already configured. `erlc.config` can only be called once.');
+            throw new Error('ERLC API Wrapper is already configured. `setConfig` can only be called once.');
         }
         
         const { error, value } = configSchema.validate(options);
